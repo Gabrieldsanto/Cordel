@@ -28,7 +28,7 @@ header{
 
 h1{
     color: white;
-    font-size: 80px;
+    font-size: 7vw;
     text-align: center;
     font-family: var(--fonte2);
     padding-top: 50px;
@@ -44,13 +44,13 @@ header >p{
     background-image: url('imagens/background001.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: cover;
+    background-position: right center;
+    background-size: cover;
     padding-bottom: 50px;
 }
 
 .backbranco{
     background-color: white;
-    height: 100vh;
 }
 
 .fontebranca{
@@ -65,16 +65,16 @@ header >p{
 }
 
 .backtransparente{
+    display:inline-block;
     background-color: black;
     color: white;
     font-family: var(--fonte3);
-    font-size: 30px;
+    font-size: 5vh;
     opacity: 60%;
     border-radius: 10px;
     
     
-    height: 600px;
-    width: 450px;
+    
     padding: 20vh;
 }
 
@@ -89,7 +89,7 @@ header >p{
     
     background-image: url('imagens/background002.jpg');
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: cover;
     background-attachment: fixed;
     padding-bottom: 50px;
 }
@@ -109,5 +109,6 @@ footer{
 
 .backbranco2{
     background-color: white;
-    height: 1200px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.378);
+
 }
