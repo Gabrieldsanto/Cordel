@@ -9,13 +9,15 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    background-color: gray;
+body,html{
+    min-height: 100%vh;
+    background-color: darkgray;
     font-family: var(--fonte1);
 }
 
@@ -29,11 +31,13 @@ h1{
     font-size: 80px;
     text-align: center;
     font-family: var(--fonte2);
-    padding-top: 30px;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 header >p{
     color: antiquewhite;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #joaninha{
@@ -41,18 +45,19 @@ header >p{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: cover;
+    padding-bottom: 50px;
 }
 
 .backbranco{
     background-color: white;
-    height: 600px;
+    height: 100vh;
 }
 
 .fontebranca{
 
     font-family: var(--fonte3);
     font-size: 40px;
-    padding: 50px 300px 50px 25px;
+    padding: 20vh;
     text-align: left;
    
     
@@ -70,7 +75,7 @@ header >p{
     
     height: 600px;
     width: 450px;
-    padding: 50px;
+    padding: 20vh;
 }
 
 #caixatransparente{
@@ -81,10 +86,12 @@ header >p{
 }
 
 #palavras{
+    
     background-image: url('imagens/background002.jpg');
     background-repeat: no-repeat;
     background-position: cover;
     background-attachment: fixed;
+    padding-bottom: 50px;
 }
 
 section{
@@ -98,4 +105,9 @@ footer{
     text-align: center;
     font-size: 20px;
     padding-top: 20px;
+}
+
+.backbranco2{
+    background-color: white;
+    height: 1200px;
 }
