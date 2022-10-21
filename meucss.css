@@ -28,7 +28,7 @@ h1{
     color: white;
     font-size: 80px;
     text-align: center;
-    font-family: var(--fonte1);
+    font-family: var(--fonte2);
     padding-top: 30px;
 }
 header >p{
@@ -50,7 +50,7 @@ header >p{
 
 .fontebranca{
 
-    font-family: var(--fonte2);
+    font-family: var(--fonte3);
     font-size: 40px;
     padding: 50px 300px 50px 25px;
     text-align: left;
@@ -62,7 +62,7 @@ header >p{
 .backtransparente{
     background-color: black;
     color: white;
-    font-family: var(--fonte2);
+    font-family: var(--fonte3);
     font-size: 30px;
     opacity: 60%;
     border-radius: 10px;
